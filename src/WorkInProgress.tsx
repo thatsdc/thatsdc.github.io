@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function WorkInProgress() {
   return (
     <div
@@ -89,13 +87,25 @@ export default function WorkInProgress() {
             </radialGradient>
 
             {/* New Gradients for the Blue Shirt */}
-            <linearGradient id="blueShirtBody" x1="0%" y1="0%" x2="100%" y2="100%">
+            <linearGradient
+              id="blueShirtBody"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
               <stop offset="0%" stopColor="#60A5FA" />
               <stop offset="55%" stopColor="#3B82F6" />
               <stop offset="100%" stopColor="#1E3A8A" />
             </linearGradient>
 
-            <linearGradient id="blueShirtLimb" x1="0%" y1="0%" x2="100%" y2="100%">
+            <linearGradient
+              id="blueShirtLimb"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
               <stop offset="0%" stopColor="#93C5FD" />
               <stop offset="100%" stopColor="#2563EB" />
             </linearGradient>
@@ -128,12 +138,12 @@ export default function WorkInProgress() {
           />
 
           {/* Shirt details (collar and buttons) */}
-          <path 
-            d="M106 120 Q120 135 134 120" 
-            stroke="#1E3A8A" 
-            strokeWidth="2.5" 
-            fill="none" 
-            strokeLinecap="round" 
+          <path
+            d="M106 120 Q120 135 134 120"
+            stroke="#1E3A8A"
+            strokeWidth="2.5"
+            fill="none"
+            strokeLinecap="round"
           />
           <circle cx="120" cy="140" r="1.5" fill="#1E3A8A" />
           <circle cx="120" cy="155" r="1.5" fill="#1E3A8A" />
